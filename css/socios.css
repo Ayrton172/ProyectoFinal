@@ -1,0 +1,167 @@
+*{
+    margin: 5;
+    padding: 35;
+}
+
+.info h2{
+    font-size: 60px;
+    justify-content: center;
+}
+.info p{
+    font-size: 20px;
+    width: 80%;
+}
+.nav-link {
+    background-color: #002849 !important;
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav.nav.p-2 {
+    background-color: #002849;
+    justify-content: space-evenly;
+
+}
+.portada{
+    color: #D8B70D;
+    background-color: #002849;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 70px;
+}
+main{
+    padding: 20px;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Alinea el contenido al centro del contenedor principal */
+    align-items: flex-start; /* Ajusta la alineación vertical al inicio para que los elementos estén uno al lado del otro */
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 50px;
+    padding: 20px;
+}
+
+.sub{
+    color: rgb(87, 87, 87);
+    font-size: 20px;
+}
+
+/* Estilos para las secciones */
+
+
+/* Ajustes para los elementos de lista y el botón */
+li {
+    list-style: none;
+    border: solid 1px black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en el ancho de la pantalla */
+}
+
+button {
+    padding: 15px;
+    margin-top: 12px;
+    width: max-content;
+}
+
+/* Creo una clase genérica */
+.sinDeco {
+    text-decoration: none;
+}
+
+/* Hover: pasar el mouse por el elemento */
+/* button:hover {
+    background-color: green;
+    color: white;
+}
+
+button a {
+    text-decoration: none;
+    color: pink;
+} */
+
+h3, h4 {
+    margin: 12px;
+}
+
+.product-container{
+    display: flex;
+    background-color: #fff;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 31%;
+    max-width: 33%;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.card:nth-child(2){
+    border: 1px solid #0dcaf0;
+    transition: .3s;
+}
+.card:hover{
+    border: 1px solid green;
+}
+.card:hover > button{
+    background-color:green;
+    border: 1px solid green;
+}
+.card h4{
+    font-size: 28px;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+td{
+
+    text-align: center;
+}
+i{
+    color: green;
+}
+footer{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #002849;
+}
+footer div{
+    display: flex;
+    justify-content: space-around;
+}
+footer .item{
+    display: flex;
+    flex-direction: column;
+}
+.item p {
+    color: #fff;
+}
+footer .footer-link{
+    color: #fff;
+    text-decoration: none;
+}
+address{
+    color: #fff;
+    text-align: center;
+}
+.btn-primary{
+    background-color: #03477f;
+}
+

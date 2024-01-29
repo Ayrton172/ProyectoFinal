@@ -1,0 +1,96 @@
+header{
+    background-color: white ;
+}
+
+*{
+    margin: 5;
+    padding: 35;
+}
+
+.info h2{
+    font-size: 60px;
+    justify-content: center;
+}
+.info p{
+    font-size: 20px;
+    width: 80%;
+}
+.nav-link {
+    background-color: #002849 !important;
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav.nav.p-2 {
+    background-color: #002849;
+    justify-content: space-evenly;
+
+}
+.portada{
+    color: #D8B70D;
+    background-color: #002849;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 70px;
+}
+.inicio{
+    display: flex;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+h2{
+    font-weight: 800;
+    color: #002849;
+}
+img{
+    width: 50%;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.card{
+    display: flex;
+    width: 40%;
+    padding: 25px;
+    flex-direction: column;
+    background-color: #002849;
+}
+.card h3,.card p{
+    color: #fff;
+}
+
+footer{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #002849;
+}
+footer div{
+    display: flex;
+    justify-content: space-around;
+}
+footer .item{
+    display: flex;
+    flex-direction: column;
+}
+.item p {
+    color: #fff;
+}
+footer .footer-link{
+    color: #fff;
+    text-decoration: none;
+}
+address{
+    color: #fff;
+    text-align: center;
+}
+.btn-primary{
+    background-color: #03477f;
+}
