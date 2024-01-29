@@ -2,38 +2,72 @@ header{
     background-color: white ;
 }
 
-.nav-link{
-    background-color:#002849 !important;
-    color: white;
+*{
+    margin: 5;
+    padding: 35;
 }
-.nav.nav.p-2{
+
+.info h2{
+    font-size: 60px;
+    justify-content: center;
+}
+.info p{
+    font-size: 20px;
+    width: 80%;
+}
+.nav-link {
+    background-color: #002849 !important;
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav.nav.p-2 {
     background-color: #002849;
+    justify-content: space-evenly;
+
 }
-.nav-link:hover{
-    color:hsl(172, 100%, 79%);
-}
-.container{
-    justify-content: space-between;
+.portada{
+    color: #D8B70D;
+    background-color: #002849;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 70px;
 }
 .inicio{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .content{
     display: flex;
     flex-direction: column;
     width: 50%;
-    justify-content:space-between;
+    justify-content: center;
 }
 h2{
     font-weight: 800;
     color: #002849;
+}
+img{
+    width: 50%;
 }
 .cards{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
+.card{
+    display: flex;
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card h3,.card p{
+    color: #002849;
+}
+
 footer{
     width: 100%;
     padding: 20px;
@@ -52,9 +86,16 @@ footer .item{
 .item p {
     color: #fff;
 }
+footer .footer-link{
+    color: #fff;
+    text-decoration: none;
+}
 address{
     color: #fff;
     text-align: center;
+}
+.btn-primary{
+    background-color: #03477f;
 }
 .card1 {
     --bs-card-spacer-y: 1rem;
@@ -79,6 +120,8 @@ address{
     position: relative;
     display: flex;
     flex-direction: column;
+    padding: 100px;
+    margin: 20px;
     min-width: 0;
     height: var(--bs-card-height);
     color: var(--bs-body-color);
@@ -87,4 +130,15 @@ address{
     background-clip: border-box;
     border: var(--bs-card-border-width) solid var(--bs-card-border-color);
     border-radius: var(--bs-card-border-radius);
+}
+
+.form-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-select{
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
