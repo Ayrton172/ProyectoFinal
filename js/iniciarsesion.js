@@ -40,3 +40,44 @@ function guardarEnLocalStorage() {
         // Llamamos a mostrarLocalStorage al cargar la página
         mostrarLocalStorage();
 }
+
+/* ------------------------------------------------------------------------------------------------------- */
+function sesion(){
+    var data2 = {Text: "text"};
+    localStorage.setItem('user', JSON.stringify(data2));
+
+// Retrieving and parsing the object from localStorage
+    var storedUser = JSON.parse(localStorage.getItem('user'));
+    console.log('User Object:', storedUser);
+}
+document .getElementById('btnsesionStorage').addEventListener('click', () => {
+    sesion({})
+});
+
+
+function guardarEnSesionStorage() {
+    var datoInput3 = document.getElementById('datoInput3');
+    var dato2 = datoInput3.value;
+
+    if (typeof(Storage) !== "undefined") {
+        sessionStorage.setItem("dato2", JSON.stringify(dato2));
+        // Actualizar la sección de visualización
+        mostrarSesionStorage();
+    }
+
+        // Función para mostrar datos almacenados
+    function mostrarSesionStorage() {
+        var datoRecuperado2 = JSON.parse(sessionStorage.getItem("dato2"));
+        var mostrar2 = document.getElementById('mostrarSessionStorage');
+        console.log(datoRecuperado2)
+
+        // Verificamos si hay un dato almacenado
+        if (datoRecuperado2) {
+            mostrar2.textContent = "Dato almacenado en SesionStorage: " + datoRecuperado2;
+        } else {
+            mostrar2.textContent = "No hay datos almacenados en SesionStorage.";
+        }
+    }
+
+        mostrarSesionStorage();
+}

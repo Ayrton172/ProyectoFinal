@@ -59,10 +59,16 @@
               <button type="button" onclick="guardarEnLocalStorage()" id="btnlogin" class="btn btn-primary">Enviar</button>
               <div id="mostrarLocalStorage"></div>
             </form>
+            
             <div class="Registrarse">
                 <p >
-                    <br><br><br>¿Todavia no sos socio?<br>
-                    <button type="button" class="btn btn-primary">Registrarse</button>
+                    <br><br><br>¿Queres probar el SesionStorage?<br>
+                    <div class="mb-3">
+                      <label for="datoInput3" class="form-label">SesionStorage</label>
+                      <input type="text" class="form-control" id="datoInput3" placeholder="SesionStorage">
+                    </div>
+                    <button type="button" onclick="guardarEnSesionStorage()" id="btnsesionStorage" class="btn btn-primary">Guardar</button>
+                    <div id="mostrarSessionStorage"></div>
                 </p>
             </div>
           </div>
