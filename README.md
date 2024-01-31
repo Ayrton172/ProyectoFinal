@@ -1,0 +1,2 @@
+Esta pagina esta creada para el club manchester City que le permite la venta de indumentaria, compra de entradas y una interacción con el club de socios del man city's club. A su vez permite la suscripción al mismo y una manera de contactarse.
+El proyecto está creado con html y css para la parte visual y Js puro para funciones del carousel, como tambien del localStorage y sessionStorage, a su vez está vinculada con una API de fixture de football a través de Js también.
